@@ -25,8 +25,7 @@
                         ],
                         "styles": [
                             "src/styles.css",
-                            "node_modules/bootstrap/dist/css/bootstrap.min.css",
-                            "node_modules/@fortawesome/fontawesome-free/css/all.css"
+                            "node_modules/bootstrap/dist/css/bootstrap.min.css"
                         ],
                         "scripts": [
                             "node_modules/popper.js/dist/umd/popper.min.js",
@@ -65,8 +64,7 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "frontend:build",
-                        "proxyConfig": "src/proxy.json"
+                        "browserTarget": "frontend:build"
                     },
                     "configurations": {
                         "production": {
